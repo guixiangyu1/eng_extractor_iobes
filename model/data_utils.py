@@ -435,8 +435,8 @@ def get_chunks(seq, tags):
         # elif tok == "I":
         #     pass
 
-    if chunk_start is not None:
-        chunk_start = None
+    # if chunk_start is not None:
+    #     chunk_start = None
     return chunks
 
     # chunk_type, chunk_start = None, None
