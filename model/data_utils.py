@@ -436,8 +436,7 @@ def get_chunks(seq, tags):
         #     pass
 
     if chunk_start is not None:
-        chunk = (chunk_start, len(seq))
-        chunks.append(chunk)
+        chunk_start = None
     return chunks
 
     # chunk_type, chunk_start = None, None
