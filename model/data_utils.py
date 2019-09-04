@@ -414,11 +414,12 @@ def get_chunks(seq, tags):
             chunk_start = None
         if tok=='E':
             if chunk_start is not None:
-                chunk = (chunk_start, i+1)
+                chunk = (chunk_start, i)
                 chunks.append(chunk)
                 chunk_start = None
             else:
                 pass
+    return chunks
 
         # if tok=="O" and chunk_start is not None:
         #     chunk = (chunk_start, i)
@@ -437,7 +438,7 @@ def get_chunks(seq, tags):
 
     # if chunk_start is not None:
     #     chunk_start = None
-    return chunks
+    # return chunks
 
     # chunk_type, chunk_start = None, None
     # for i, tok in enumerate(seq):
