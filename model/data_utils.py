@@ -414,7 +414,7 @@ def get_chunks(seq, tags):
             chunk_start = None
         if tok=='E':
             if chunk_start is not None:
-                chunk = (chunk_start, i)
+                chunk = (chunk_start, i+1)
                 chunks.append(chunk)
                 chunk_start = None
             else:
