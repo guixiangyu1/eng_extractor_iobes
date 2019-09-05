@@ -1,0 +1,22 @@
+SOCCER O
+- O
+JAPAN S-PER
+GET O
+LUCKY O
+WIN O
+, O
+CHINA S-PER
+IN O
+SURPRISE O
+DEFEAT O
+. O
+
+Nadim B-LOC
+Ladki E-LOC
+
+AL-AIN S-PER
+, O
+United B-PER
+Arab I-PER
+Emirates E-PER
+1996-12-06 O
